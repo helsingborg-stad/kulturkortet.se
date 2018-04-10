@@ -11,8 +11,12 @@
 wp/
 vendor/
 wp-content/*
+wp-content/themes/municipio
 !wp-content/mu-plugins
 !wp-content/mu-plugins/*
+!wp-content/themes
+!wp-content/themes/kulturkortet
+!wp-content/themes/kulturkortet/*
 !wp-content/object-cache.php
 composer.lock
 
