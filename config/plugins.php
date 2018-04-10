@@ -34,4 +34,7 @@ define('WEB_FONT', 'Roboto');
  * Enable ssl proxy mode in ssl plugin
  * @var bool
  */
- //define('SSL_PROXY', true);
+
+if(getenv('ENVIRONMENT') == "production") {
+    define('SSL_PROXY', true);
+}
