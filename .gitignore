@@ -17,6 +17,7 @@ wp-content/themes/municipio
 !wp-content/themes
 !wp-content/themes/kulturkortet
 !wp-content/themes/kulturkortet/*
+!wp-content/themes/kulturkortet/library/Vendor
 !wp-content/object-cache.php
 composer.lock
 
