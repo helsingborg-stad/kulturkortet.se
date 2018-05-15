@@ -2,5 +2,6 @@
 @import 'master';
 
 .is-child-theme.t-kulturkortet {
-	//@import 'layout/base';
+    @import 'layout/header';
+	@import 'layout/footer';
 }
