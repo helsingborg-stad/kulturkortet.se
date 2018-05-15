@@ -17,7 +17,7 @@
  * Load webfonts for municipio theme.
  */
 
-define('WEB_FONT', 'Roboto');
+define('WEB_FONT', false);
 
 /**
  * Integration with ad
