@@ -1,5 +1,13 @@
 body.t-kulturkortet {
-    font-family: BellGothicBlkBTWXX-Black;
+    font-family: BellGothicBlkBTWXX-Bold;
     font-weight: normal;
     font-style: normal;
+}
+
+body.t-kulturkortet {
+    strong, b, h1, h2, h3, h4, h5, h6 {
+        font-family: BellGothicBlkBTWXX-Black;
+        font-weight: normal;
+        font-style: normal;
+    }
 }
