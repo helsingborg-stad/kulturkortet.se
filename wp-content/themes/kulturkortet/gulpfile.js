@@ -35,6 +35,7 @@
     plumber         =   require('gulp-plumber'),
     jshint          =   require("gulp-jshint"),
     cleanCSS        =   require('gulp-clean-css'),
+    copy            =   require('gulp-copy'),
     node_modules    =   'node_modules/';
 
 /* ==========================================================================
@@ -60,7 +61,7 @@
     });
 
     gulp.task('build:sass', function(callback) {
-        runSequence('sass', 'rev', callback);
+        runSequence('sass', 'rev', 'font', callback);
     });
 
     gulp.task('build:scripts', function(callback) {
@@ -129,6 +130,14 @@
           .pipe(rev.manifest())
           .pipe(revDel({dest: './assets/dist'}))
           .pipe(gulp.dest('./assets/dist'));
+    });
+
+/* ==========================================================================
+   SASS Task
+   ========================================================================== */
+
+    gulp.task('font', function () {
+        return gulp.src('./assets/source/font/*').pipe(gulp.dest('./assets/dist/font/'));
     });
 
 /* ==========================================================================
