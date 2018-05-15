@@ -61,7 +61,7 @@
     });
 
     gulp.task('build:sass', function(callback) {
-        runSequence('sass', 'rev', 'font', callback);
+        runSequence('sass', 'rev', callback);
     });
 
     gulp.task('build:scripts', function(callback) {
@@ -136,14 +136,6 @@
    SASS Task
    ========================================================================== */
 
-    gulp.task('font', function () {
-        return gulp.src('./assets/source/font/*').pipe(gulp.dest('./assets/dist/font/'));
-    });
-
-/* ==========================================================================
-   SASS Task
-   ========================================================================== */
-
     gulp.task('sass', function () {
         var app = gulp.src('assets/source/sass/app.scss')
                 .pipe(plumber())
@@ -170,7 +162,9 @@
                 .pipe(cleanCSS({debug: true}))
                 .pipe(gulp.dest('./assets/tmp/css'));
 
-        return [app, admin];
+        var font = gulp.src('./assets/source/font/*').pipe(gulp.dest('./assets/dist/font/'));
+
+        return [app, admin, font];
     });
 
 /* ==========================================================================
