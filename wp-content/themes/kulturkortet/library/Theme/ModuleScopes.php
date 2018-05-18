@@ -16,7 +16,7 @@ class ModuleScopes
     public function addModuleScopes($scopes)
     {
         $scopes['mod-posts'] = array(
-            's-buy-card' => __("Select a card", 'kulturkortet')
+            's-card-sales' => __("Card sales", 'kulturkortet')
         );
 
         return $scopes;
