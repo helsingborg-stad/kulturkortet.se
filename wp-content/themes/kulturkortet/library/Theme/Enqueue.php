@@ -17,10 +17,9 @@ class Enqueue
      */
     public function style()
     {
-        wp_register_style('hbg-prime', 'http://helsingborg-stad.github.io/styleguide-web-cdn/styleguide.dev/dist/css/hbg-prime.min.css', '', '1.0.0');
-        wp_enqueue_style('hbg-prime');
-
-        wp_enqueue_style('Kulturkortet-css', get_stylesheet_directory_uri(). '/assets/dist/css/app.min.css', '', filemtime(get_stylesheet_directory() . '/assets/dist/css/app.min.css'));
+        if(\Municipio\Helper\CacheBust::name('css/app.css', true, true)) {
+            wp_enqueue_style('kulturkortet', get_stylesheet_directory_uri(). '/assets/dist/' . \Municipio\Helper\CacheBust::name('css/app.css', true, true));
+        }
     }
 
     /**
@@ -29,9 +28,8 @@ class Enqueue
      */
     public function script()
     {
-        wp_register_script('hbg-prime', 'http://helsingborg-stad.github.io/styleguide-web-cdn/styleguide.dev/dist/js/hbg-prime.min.js', '', '1.0.0', true);
-        wp_enqueue_script('hbg-prime');
-
-        wp_enqueue_script('Kulturkortet-js', get_stylesheet_directory_uri(). '/assets/dist/js/app.min.js', '', filemtime(get_stylesheet_directory() . '/assets/dist/js/app.min.js'), true);
+        if(\Municipio\Helper\CacheBust::name('js/app.js', true, true)) {
+            wp_enqueue_script('kulturkortet', get_stylesheet_directory_uri(). '/assets/dist/' . \Municipio\Helper\CacheBust::name('js/app.js', true, true));
+        }
     }
 }

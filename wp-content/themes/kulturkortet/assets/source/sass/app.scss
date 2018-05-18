@@ -1,5 +1,7 @@
+@import 'font';
 @import 'master';
 
-.is-child-theme {
-	//@import 'layout/base';
+.is-child-theme.t-kulturkortet {
+    @import 'layout/header';
+	@import 'layout/footer';
 }

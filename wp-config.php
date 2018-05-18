@@ -66,6 +66,16 @@ if (file_exists(__DIR__ . '/config/developer.php')) {
     require_once 'config/developer.php';
 }
 
+/**
+ * Captcha keys
+ *
+ * You can create a file called "captcha.php" in the config dir and
+ * put your captcha keys here.
+ */
+if (file_exists(__DIR__ . '/config/captcha.php')) {
+    require_once 'config/captcha.php';
+}
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */

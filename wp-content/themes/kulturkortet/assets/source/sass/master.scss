@@ -1,25 +1,13 @@
-$black: black;
-
-html {
-    background: $black; //Fixes issues of color in footer, when page is to "short".
+body.t-kulturkortet {
+    font-family: BellGothicBTWXX-Bold;
+    font-weight: normal;
+    font-style: normal;
 }
 
-html.video-is-playing {
-    .scroll-down-please-icon,
-    .scroll-down-please {
-        display: none !important;
+body.t-kulturkortet {
+    strong, b, h1, h2, h3, h4, h5, h6 {
+        font-family: BellGothicBlkBTWXX-Black;
+        font-weight: normal;
+        font-style: normal;
     }
-}
-
-.admin-bar #site-header {
-    @media screen and (max-width: 782px) {
-        margin-top: 46px;
-    }
-    @media screen and (min-width: 783px) {
-        margin-top: 32px;
-    }
-}
-
-html.translated-ltr #site-header {
-    top: 39px;
 }

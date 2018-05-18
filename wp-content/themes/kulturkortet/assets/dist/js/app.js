@@ -1,27 +1,3 @@
 var Kulturkortet;
 
-Kulturkortet = Kulturkortet || {};
-Kulturkortet.ExampleNamespace = Kulturkortet.Liquid || {};
-
-Kulturkortet.ExampleNamespace.ExampleClass = (function ($) {
-
-	var classVariable = false;
-
-    /**
-     * Constructor
-     * Should be named as the class itself
-     */
-	function ExampleClass() {
-
-    }
-
-    /**
-     * Method
-     */
-    ExampleClass.prototype.exampleMethod = function () {
-
-    }
-
-	return new ExampleClass();
-
-})(jQuery);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBIiwiZmlsZSI6ImFwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbInZhciBLdWx0dXJrb3J0ZXQ7XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=
