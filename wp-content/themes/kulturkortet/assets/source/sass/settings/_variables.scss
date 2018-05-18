@@ -9,3 +9,8 @@ $mix-mq-breakpoints: (
     lg : 78em,      //1248px
     xl : 100em      //1600px
 ) !default;
+
+$theme-border-size: 1px;
+$theme-border-color: black;
+$theme-border: solid $theme-border-size $theme-border-color;
+$theme-border-radius: 8px;
