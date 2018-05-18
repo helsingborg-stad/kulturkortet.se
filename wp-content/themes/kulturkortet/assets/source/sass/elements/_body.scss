@@ -1,10 +1,12 @@
-body.t-kulturkortet {
+//Body wrapper
+& {
     font-family: BellGothicBTWXX-Bold;
     font-weight: normal;
     font-style: normal;
 }
 
-body.t-kulturkortet {
+//Body wrapper
+& {
     strong, b, h1, h2, h3, h4, h5, h6 {
         font-family: BellGothicBlkBTWXX-Black;
         font-weight: normal;
