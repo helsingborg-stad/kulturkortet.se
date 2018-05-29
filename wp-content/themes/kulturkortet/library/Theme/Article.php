@@ -52,7 +52,7 @@ class Article extends \Kulturkortet\Entity\PostType
                 'hierarchical'          =>  false,
                 'exclude_from_search'   =>  false,
                 'taxonomies'            =>  array(),
-                'supports'              =>  array('title', 'revisions', 'editor', 'comments')
+                'supports'              =>  array('title', 'revisions', 'editor', 'comments', 'thumbnail')
             )
         );
 
