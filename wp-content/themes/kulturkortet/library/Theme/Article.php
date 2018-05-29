@@ -1,6 +1,6 @@
 <?php
 
-namespace Kulturkortet;
+namespace Kulturkortet\Theme;
 
 class Article extends \Kulturkortet\Entity\PostType
 {
@@ -85,7 +85,7 @@ class Article extends \Kulturkortet\Entity\PostType
     public function taxonomyCategory() : string
     {
         //Register new taxonomy
-        $categories = new Entity\Taxonomy(
+        $categories = new \Kulturkortet\Entity\Taxonomy(
             __('Categories', 'Kulturkortet'),
             __('Category', 'Kulturkortet'),
             'article-category',
@@ -96,7 +96,7 @@ class Article extends \Kulturkortet\Entity\PostType
         );
 
         //Add filter
-        new Entity\Filter(
+        new \Kulturkortet\Entity\Filter(
             'article-category',
             'article'
         );
