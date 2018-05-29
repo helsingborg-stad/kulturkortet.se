@@ -2,6 +2,10 @@
 
 define('KULTURKORTET_PATH', get_stylesheet_directory() . '/');
 
+add_action('after_setup_theme', function () {
+    load_theme_textdomain('Kulturkortet', get_stylesheet_directory() . '/languages');
+});
+
 //Include vendor files
 if (file_exists(dirname(ABSPATH) . '/vendor/autoload.php')) {
     require_once dirname(ABSPATH) . '/vendor/autoload.php';
