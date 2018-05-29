@@ -49,10 +49,10 @@ class Article extends \Kulturkortet\Entity\PostType
                     'slug'       =>   __('article', 'Kulturkortet'),
                     'with_front' =>   false
                 ),
-                'hierarchical'          =>  true,
-                'exclude_from_search'   =>  true,
+                'hierarchical'          =>  false,
+                'exclude_from_search'   =>  false,
                 'taxonomies'            =>  array(),
-                'supports'              =>  array('title', 'revisions', 'editor','comments', 'page-attributes')
+                'supports'              =>  array('title', 'revisions', 'editor', 'comments')
             )
         );
 
