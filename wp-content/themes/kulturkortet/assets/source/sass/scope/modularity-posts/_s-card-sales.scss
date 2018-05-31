@@ -1,0 +1,48 @@
+%s-card-sales__header {
+    display: flex;
+    position: relative;
+}
+
+%s-card-sales__header:before {
+    content: '';
+    width: 100%;
+    display: block;
+    height: $theme-border-size;
+    background: $theme-border-color;
+    position: absolute;
+    top: 50%;
+}
+
+%s-card-sales__title {
+    background: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: $theme-border-radius;
+    border: $theme-border;
+    padding: $baseline*2 $baseline*4;
+    position: relative;
+}
+
+%s-card-sales__box-content {
+    background-color: initial;
+}
+
+%s-card-sales__wrapper {
+    border-bottom: $theme-border;
+}
+
+.modularity-mod-posts.s-card-sales {
+    @extend %s-card-sales__wrapper;
+    .grid > .grid-xs-12:first-of-type {
+        @extend %s-card-sales__header;
+
+        & > h4.box-title {
+            @extend %s-card-sales__title;
+        }
+    }
+
+    .box.box-news-circular .box-content {
+        @extend %s-card-sales__box-content;
+    }
+}

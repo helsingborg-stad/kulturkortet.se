@@ -4,25 +4,29 @@
   "description": "Childtheme for Municipio theme",
   "main": "gulpfile.js",
   "dependencies": {
-    "gulp-clean-css": "^3.9.4",
-    "gulp-jshint": "^2.1.0",
-    "gulp-plumber": "^1.2.0",
-    "gulp-rev": "^8.1.1",
-    "gulp-rev-css-url": "^0.1.0",
-    "jshint": "^2.9.5",
-    "rev-del": "^1.0.5",
-    "run-sequence": "^2.2.1"
+    "jshint": "^2.9.5"
   },
   "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "del": "^3.0.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^2.3.1",
+    "gulp-clean-css": "^3.9.4",
     "gulp-concat": "^2.5.2",
     "gulp-copy": "0.0.2",
     "gulp-cssnano": "^2.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-plumber": "^1.2.0",
     "gulp-rename": "^1.2.2",
+    "gulp-rev": "^8.1.1",
+    "gulp-rev-css-url": "^0.1.0",
     "gulp-sass": "^2.0.1",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^1.2.0",
-    "imagemin-pngquant": "^4.2.0"
+    "hbg-mix": "^2.1.1",
+    "imagemin-pngquant": "^4.2.0",
+    "rev-del": "^1.0.5",
+    "run-sequence": "^2.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
