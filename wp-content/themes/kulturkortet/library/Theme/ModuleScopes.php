@@ -19,6 +19,10 @@ class ModuleScopes
             's-card-sales' => __("Card sales", 'kulturkortet')
         );
 
+        $scopes['mod-slider'] = array(
+            's-slider-padded' => __("Slider padded", 'kulturkortet')
+        );
+
         return $scopes;
     }
 }
