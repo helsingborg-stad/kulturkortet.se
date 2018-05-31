@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kulturkortet\n"
-"POT-Creation-Date: 2018-05-31 15:12+0200\n"
-"PO-Revision-Date: 2018-05-31 15:13+0200\n"
+"POT-Creation-Date: 2018-05-31 15:27+0200\n"
+"PO-Revision-Date: 2018-05-31 15:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -40,9 +40,9 @@ msgid "New %s"
 msgstr "Ny %s"
 
 #: library/Entity/PostType.php:52
-#, fuzzy, php-format
+#, php-format
 msgid "View %s"
-msgstr "Visa %s"
+msgstr "Mallen [%s] hittades inte. Använder [page.blade.php] istället."
 
 #: library/Entity/PostType.php:53 library/Entity/Taxonomy.php:29
 #, fuzzy, php-format
@@ -78,7 +78,7 @@ msgstr "Uppdatera %s"
 #: library/Entity/Taxonomy.php:35
 #, php-format
 msgid "Add New %s"
-msgstr ""
+msgstr "Lägg till ny %s"
 
 #: library/Entity/Taxonomy.php:36
 #, fuzzy, php-format
@@ -95,15 +95,15 @@ msgctxt "Post type singular"
 msgid "Article"
 msgstr "Artikel"
 
+#: library/Theme/Article.php:39 library/Theme/Article.php:49
+#, fuzzy
+msgid "article"
+msgstr "artikel"
+
 #: library/Theme/Article.php:41
 #, fuzzy
 msgid "Stores articles for kulturkortet."
 msgstr "Lagrar artiklar för kulturkortet."
-
-#: library/Theme/Article.php:49
-#, fuzzy
-msgid "article"
-msgstr "artikel"
 
 #: library/Theme/Article.php:62 library/Theme/Article.php:89
 #, fuzzy
