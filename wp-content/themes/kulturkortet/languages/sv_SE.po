@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kulturkortet\n"
-"POT-Creation-Date: 2018-05-29 12:41+0200\n"
-"PO-Revision-Date: 2018-05-29 12:44+0200\n"
+"POT-Creation-Date: 2018-05-31 15:27+0200\n"
+"PO-Revision-Date: 2018-05-31 15:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -22,56 +22,56 @@ msgstr ""
 
 #: library/Entity/Filter.php:26
 msgid "Show All"
-msgstr "Visa alla\t"
+msgstr "Visa alla"
 
 #: library/Entity/PostType.php:48 library/Entity/PostType.php:49
-#, php-format
+#, fuzzy, php-format
 msgid "Add new %s"
-msgstr "Lägg till ny %s"
+msgstr "Skapa ny %s"
 
 #: library/Entity/PostType.php:50 library/Entity/Taxonomy.php:33
-#, php-format
+#, fuzzy, php-format
 msgid "Edit %s"
 msgstr "Redigera %s"
 
 #: library/Entity/PostType.php:51
-#, php-format
+#, fuzzy, php-format
 msgid "New %s"
 msgstr "Ny %s"
 
 #: library/Entity/PostType.php:52
 #, php-format
 msgid "View %s"
-msgstr "Visa %s"
+msgstr "Mallen [%s] hittades inte. Använder [page.blade.php] istället."
 
 #: library/Entity/PostType.php:53 library/Entity/Taxonomy.php:29
-#, php-format
+#, fuzzy, php-format
 msgid "Search %s"
 msgstr "Sök %s"
 
 #: library/Entity/PostType.php:54
-#, php-format
+#, fuzzy, php-format
 msgid "No %s found"
 msgstr "Inga %s hittade"
 
 #: library/Entity/PostType.php:55
-#, php-format
+#, fuzzy, php-format
 msgid "No %s found in trash"
 msgstr "Inga %s hittades i papperskorgen"
 
 #: library/Entity/PostType.php:56 library/Entity/Taxonomy.php:31
 #: library/Entity/Taxonomy.php:32
-#, php-format
+#, fuzzy, php-format
 msgid "Parent %s:"
-msgstr "Förälder %s"
+msgstr "Förälder %s:"
 
 #: library/Entity/Taxonomy.php:30
-#, php-format
+#, fuzzy, php-format
 msgid "All %s"
 msgstr "Alla %s"
 
 #: library/Entity/Taxonomy.php:34
-#, php-format
+#, fuzzy, php-format
 msgid "Update %s"
 msgstr "Uppdatera %s"
 
@@ -81,9 +81,9 @@ msgid "Add New %s"
 msgstr "Lägg till ny %s"
 
 #: library/Entity/Taxonomy.php:36
-#, php-format
+#, fuzzy, php-format
 msgid "New %s Name"
-msgstr "Nytt %s namn"
+msgstr "Ny %s namn"
 
 #: library/Theme/Article.php:37
 msgctxt "Post type plural"
@@ -95,27 +95,33 @@ msgctxt "Post type singular"
 msgid "Article"
 msgstr "Artikel"
 
-#: library/Theme/Article.php:41
-msgid "Stores articles for kulturkortet."
-msgstr "Lagrar artiklar för kulturkortet."
-
-#: library/Theme/Article.php:49
+#: library/Theme/Article.php:39 library/Theme/Article.php:49
+#, fuzzy
 msgid "article"
 msgstr "artikel"
 
+#: library/Theme/Article.php:41
+#, fuzzy
+msgid "Stores articles for kulturkortet."
+msgstr "Lagrar artiklar för kulturkortet."
+
 #: library/Theme/Article.php:62 library/Theme/Article.php:89
+#, fuzzy
 msgid "Categories"
 msgstr "Kategorier"
 
 #: library/Theme/Article.php:69
+#, fuzzy
 msgid "Uncategorized"
 msgstr "Okategoriserat"
 
 #: library/Theme/Article.php:90
+#, fuzzy
 msgid "Category"
-msgstr "Kategori"
+msgstr "Kategori / Produkt"
 
 #: library/Theme/ModuleScopes.php:19
+#, fuzzy
 msgid "Select a card"
 msgstr "Välj ett kort"
 
