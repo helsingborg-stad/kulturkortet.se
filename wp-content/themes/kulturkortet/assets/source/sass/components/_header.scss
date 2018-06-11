@@ -1,0 +1,17 @@
+.c-header.customizer-header-secondary-kultur {
+    border-top: solid 2px $color-primary;
+    border-bottom: solid 2px $color-primary;
+
+    .c-header__body {
+        justify-content: center;
+    }
+}
+
+.c-header.customizer-header-primary-kultur {
+    .c-header__body {
+        padding: $baseline*8 0 $baseline*5 0;
+    }
+}
+.s-header.customizer-header-secondary-kultur {
+    // .pricon.pricon-instagram
+}

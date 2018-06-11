@@ -11,6 +11,8 @@ body.t-kulturkortet {
 
     //Objects
     //Components
+    @import 'components/navbar';
+    @import 'components/header';
 
     //Scope
     @import 'scope/modularity-posts/s-card-sales';

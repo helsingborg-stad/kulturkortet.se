@@ -1,0 +1,39 @@
+.s-header {
+    .c-navbar__action {
+        text-transform: uppercase;
+    }
+
+    .c-navbar__action.pricon-instagram,
+    .c-navbar__action.pricon-facebook-square {
+        &:before {
+            font-size: 150%;
+        }
+    }
+
+    a.c-navbar__action,
+    button.c-navbar__action {
+        color: $color-primary;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+
+    .c-navbar__action {
+        padding: $baseline*1.5 $baseline * 2;
+    }
+}
+
+.s-boxed-navbar .c-navbar {
+    .c-navbar__item:not(last-child) {
+        border-right: solid 2px $color-primary;
+    }
+
+    .c-navbar__item:first-child {
+        border-left: solid 2px $color-primary;
+    }
+
+    .c-navbar__action {
+        padding: $baseline*1.5 $baseline*5;
+    }
+}
