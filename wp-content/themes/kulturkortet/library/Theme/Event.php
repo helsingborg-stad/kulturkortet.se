@@ -5,7 +5,7 @@ class Event
 {
     public function __construct()
     {
-        add_filter('acf/load_field/name=archive_event_post_style', 'eventArchiveTemplate', 10, 3);
+        add_filter('acf/load_field/name=archive_event_post_style', array($this, 'eventArchiveTemplate'), 10, 3);
     }
 
     public function eventArchiveTemplate($field)
