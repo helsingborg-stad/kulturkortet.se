@@ -11,14 +11,14 @@
         <div class="c-card__body" data-equal-item>
             @if (get_field('archive_' . sanitize_title(get_post_type()) . '_feed_date_published', 'option') != 'false')
             <div class="u-mb-2">
-            <time class="o-text-secondary o-text-small">
+            <time class="o-text-secondary">
                {{ \Municipio\Helper\Event::formatEventDate($post->start_date, $post->end_date) }}
             </time>
             </div>
             @endif
 
             <h4 class="c-card__title">{{ the_title() }}</h4>
-            <span class="c-card__sub">
+            <span class="c-card__sub o-text-small">
                 {{$location}}
             </span>
         </div>
