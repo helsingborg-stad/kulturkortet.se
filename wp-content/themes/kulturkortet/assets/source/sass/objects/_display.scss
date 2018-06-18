@@ -1,0 +1,5 @@
+.o-display-1 {
+    @include mq(md) {
+        font-size: 64px;
+    }
+}
