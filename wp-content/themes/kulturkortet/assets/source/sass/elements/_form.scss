@@ -17,7 +17,8 @@ $text-input-list: (
     "textarea"
 );
 
-#{$text-input-list} {
+#{$text-input-list},
+select {
     border: solid 1px $color-primary;
     box-shadow: none;
 }
