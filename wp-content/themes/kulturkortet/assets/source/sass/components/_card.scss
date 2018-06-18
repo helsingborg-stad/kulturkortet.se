@@ -1,0 +1,9 @@
+a.c-card.c-card--action {
+    color: $color-primary;
+}
+
+@include mq(lg) {
+    .c-card .c-card__body {
+        padding: $baseline * 5;
+    }
+}
