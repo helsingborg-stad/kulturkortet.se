@@ -10,12 +10,11 @@ body.t-kulturkortet {
     @import 'elements/body';
     @import 'elements/form';
 
-
     //Objects
     @import 'objects/container';
     @import 'objects/display';
     @import 'objects/newsletter-icon';
-
+    @import 'objects/arrow-icon';
 
     //Components
     @import 'components/main';
@@ -26,6 +25,7 @@ body.t-kulturkortet {
     @import 'components/archive-filter';
     @import 'components/button';
     @import 'components/signup';
+    @import 'components/footer';
 
     //Scope
     @import 'scope/modularity-posts/s-card-sales';
@@ -36,4 +36,5 @@ body.t-kulturkortet {
 
     @import 'trumps';
 }
+
 
