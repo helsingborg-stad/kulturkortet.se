@@ -1,0 +1,17 @@
+.page-numbers {
+    .current,
+    a {
+        background: initial;
+        border: none;
+        box-shadow: none;
+        color: $color-primary;
+
+        &:hover {
+            color: $color-secondary;
+        }
+    }
+
+    .current {
+        color: $color-secondary;
+    }
+}
