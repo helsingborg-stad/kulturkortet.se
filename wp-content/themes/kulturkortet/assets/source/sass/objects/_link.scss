@@ -1,0 +1,7 @@
+.link {
+    @extend %link;
+}
+
+a.no-color {
+    color: $color-primary;
+}

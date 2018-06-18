@@ -1,0 +1,7 @@
+a, %link {
+    color: $color-secondary;
+
+    &:hover {
+        color: rgba($color-secondary, 0.8);
+    }
+}
