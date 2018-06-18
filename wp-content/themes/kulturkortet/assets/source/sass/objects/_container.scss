@@ -1,0 +1,14 @@
+.container.container--one-column {
+    max-width: 960px;
+}
+
+
+    .container__collapse {
+        margin-left: -8px;
+        margin-right: -8px;
+        @include mq(sm) {
+            margin-left: -32px;
+            margin-right: -32px;
+        }
+    }
+
