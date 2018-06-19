@@ -9,5 +9,6 @@ class App
         new \Kulturkortet\Theme\Enqueue();
         new \Kulturkortet\Theme\ModuleScopes();
         new \Kulturkortet\Theme\Article();
+        new \Kulturkortet\Theme\Header();
     }
 }
