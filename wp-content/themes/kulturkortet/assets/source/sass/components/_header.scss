@@ -7,11 +7,27 @@
     }
 }
 
+
 .c-header.customizer-header-primary-kultur {
     .c-header__body {
-        padding: $baseline*8 0 $baseline*5 0;
+        @include mq(xs, sm) {
+            padding: $baseline 0;
+        }
+        @include mq(lg) {
+            padding: $baseline*8 0 $baseline*5 0;
+        }
     }
 }
 .s-header.customizer-header-secondary-kultur {
     // .pricon.pricon-instagram
+}
+
+
+.s-header.customizer-header-primary-kultur .c-brand svg {
+    @include mq(xs, sm) {
+        max-width: $baseline * 23; //184px
+    }
+    @include mq(sm, lg) {
+        max-width: $baseline * 30; //240px
+    }
 }
