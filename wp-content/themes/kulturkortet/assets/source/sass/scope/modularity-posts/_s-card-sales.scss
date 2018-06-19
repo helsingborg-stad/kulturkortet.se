@@ -10,7 +10,6 @@
     height: $theme-border-size;
     background: $theme-border-color;
     position: absolute;
-    top: 50%;
 }
 
 %s-card-sales__title {
@@ -20,8 +19,9 @@
     margin-right: auto;
     border-radius: $theme-border-radius;
     border: $theme-border;
-    padding: $baseline*2 $baseline*4;
+    padding: $baseline $baseline*4;
     position: relative;
+    font-size: 26px;
 }
 
 %s-card-sales__box-content {
@@ -34,11 +34,15 @@
 
 .modularity-mod-posts.s-card-sales {
     @extend %s-card-sales__wrapper;
+    > .grid {
+        background: white;
+    }
     .grid > .grid-xs-12:first-of-type {
         @extend %s-card-sales__header;
 
         & > h4.box-title {
             @extend %s-card-sales__title;
+            margin-top: -26px;
         }
     }
 
