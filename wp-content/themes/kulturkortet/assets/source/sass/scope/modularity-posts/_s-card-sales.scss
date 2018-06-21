@@ -8,6 +8,8 @@
 
 .modularity-mod-posts.s-card-sales {
     @extend %s-card-sales__wrapper;
+    margin-top: 26px;
+
     > .grid {
         background: white;
     }
@@ -15,6 +17,10 @@
 
         & > h4.box-title {
             margin-top: -26px;
+        }
+
+        &:before {
+            top: 0px;
         }
     }
 
