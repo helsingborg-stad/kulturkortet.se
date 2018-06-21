@@ -2,18 +2,14 @@
     background-color: initial;
 }
 
-%s-card-sales__wrapper {
-    border-bottom: $theme-border;
-}
-
 .modularity-mod-posts.s-card-sales {
     @extend %s-card-sales__wrapper;
+    background: white;
+    border-bottom: $theme-border;
     margin-top: 26px;
 
-    > .grid {
-        background: white;
-    }
     .grid > .grid-xs-12:first-of-type {
+        margin-bottom: $baseline * 2;
 
         & > h4.box-title {
             margin-top: -26px;
@@ -26,5 +22,24 @@
 
     .box.box-news-circular .box-content {
         @extend %s-card-sales__box-content;
+    }
+
+    .box.box-news-circular .box-image-container {
+        @extend %box-shadow-state-default;
+        max-width: $baseline * 18; //144px
+        border: solid 1px rgba(255, 255, 255, 0);
+    }
+
+    .box.box-news-circular .box-content {
+        word-break: break-all;
+        padding-bottom: 0px;
+    }
+
+    a.box.box-news-circular:hover {
+
+        .box-image-container {
+            @extend %box-shadow-state-hover;
+            border: solid 1px black;
+        }
     }
 }
