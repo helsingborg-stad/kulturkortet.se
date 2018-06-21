@@ -72,6 +72,12 @@ body.t-kulturkortet {
     .o-header-media--14000 svg {
         bottom: -30px;
     }
+
+    .c-footer__sidebar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
 }
 
 
