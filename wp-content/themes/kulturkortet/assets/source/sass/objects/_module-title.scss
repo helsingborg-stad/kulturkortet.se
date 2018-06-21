@@ -1,0 +1,36 @@
+%mod-header {
+    position: relative;
+    display: flex;
+}
+
+%mod-header:before {
+    content: '';
+    width: calc(100% - 32px);
+    display: block;
+    height: $theme-border-size;
+    background: $theme-border-color;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-left: 16px;
+}
+
+%mod-title {
+    background: white;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: $theme-border-radius;
+    border: $theme-border;
+    padding: $baseline $baseline*4;
+    position: relative;
+    font-size: 26px;
+}
+
+.o-mod-title {
+    @extend %mod-title;
+}
+
+.o-mod-header {
+    @extend %mod-header;
+}

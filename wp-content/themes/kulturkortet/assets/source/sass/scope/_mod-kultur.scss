@@ -1,0 +1,6 @@
+[class*="modularity-mod"] > .grid > .grid-xs-12:first-child {
+    @extend %mod-header;
+    .box-title {
+        @extend %mod-title;
+    }
+}
