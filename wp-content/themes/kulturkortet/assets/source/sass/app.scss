@@ -42,6 +42,34 @@ body.t-kulturkortet {
     .search-top {
         background: $color-primary;
     }
+
+    .o-header-media {
+        align-self: flex-end;
+        svg, img {
+            position: absolute;
+            bottom: -24px;
+        }
+    }
+
+    .o-header-media--left {
+        svg, img {
+            left: 0;
+        }
+    }
+
+    .o-header-media--right {
+        svg, img {
+            right: 0;
+        }
+    }
+
+    .o-header-media--newsletter svg {
+        padding-right: 24px;
+    }
+    .o-header-media--14000 svg {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
 }
 
 
