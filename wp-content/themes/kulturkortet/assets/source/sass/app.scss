@@ -38,6 +38,10 @@ body.t-kulturkortet {
     @import 'utility/color';
 
     @import 'trumps';
+
+    .search-top {
+        background: $color-primary;
+    }
 }
 
 
