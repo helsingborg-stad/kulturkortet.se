@@ -16,6 +16,7 @@ body.t-kulturkortet {
     @import 'objects/display';
     @import 'objects/newsletter-icon';
     @import 'objects/arrow-icon';
+    @import 'objects/module-title';
 
     //Components
     @import 'components/main';
@@ -29,6 +30,7 @@ body.t-kulturkortet {
     @import 'components/footer';
 
     //Scope
+    @import 'scope/mod-kultur';
     @import 'scope/modularity-posts/s-card-sales';
     @import 'scope/modularity-slider/s-slider-padded';
 
