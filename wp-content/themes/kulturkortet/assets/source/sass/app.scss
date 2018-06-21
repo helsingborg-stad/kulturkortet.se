@@ -48,28 +48,29 @@ body.t-kulturkortet {
         svg, img {
             position: absolute;
             bottom: -24px;
+            max-width: 200px;
         }
     }
 
     .o-header-media--left {
+        margin-left: auto;
         svg, img {
             left: 0;
         }
     }
 
     .o-header-media--right {
+        margin-right: auto;
         svg, img {
             right: 0;
         }
     }
 
     .o-header-media--newsletter svg {
-        padding-right: 24px;
-        bottom: -16px;
+        bottom: -20px;
     }
     .o-header-media--14000 svg {
-        padding-right: 24px;
-        padding-left: 24px;
+        bottom: -30px;
     }
 }
 
