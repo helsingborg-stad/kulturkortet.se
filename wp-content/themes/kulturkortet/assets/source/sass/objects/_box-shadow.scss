@@ -1,0 +1,10 @@
+.o-box-shadow-action,
+%box-shadow-action {
+    transition: $box-shadow-state-default-transition;
+    box-shadow: $box-shadow-state-default;
+
+    &:hover {
+        transition: $box-shadow-state-hover-transition;
+        box-shadow: $box-shadow-state-hover;
+    }
+}
