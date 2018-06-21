@@ -16,7 +16,11 @@
         align-items: flex-end;
     }
     em.title.text-xl.block-level {
-        font-size: 40px;
+        font-size: 24px;
+        line-height: 1.3;
+        @include mq(md) {
+            font-size: 40px;
+        }
         font-weight: bold;
     }
 
