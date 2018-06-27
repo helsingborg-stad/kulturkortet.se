@@ -66,11 +66,13 @@ body.t-kulturkortet {
         }
     }
 
-    .o-header-media--newsletter svg {
-        bottom: -17px;
+    .o-header-media--newsletter svg,
+    .o-header-media--newsletter img {
+        bottom: -20px;
     }
-    .o-header-media--14000 svg {
-        bottom: -30px;
+    .o-header-media--14000 svg,
+    .o-header-media--14000 img {
+        bottom: -18px;
     }
 
     .c-footer__sidebar {
