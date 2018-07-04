@@ -4,7 +4,7 @@
     $location = ($location && isset($location['title'])) ? $location['title'] : false;
 ?>
 
-    <a href="{{ the_permalink() }}" class="c-card c-card--action u-text-center">
+    <a href="{{ esc_url(add_query_arg('date', preg_replace('/\D/', '', $post->start_date), the_permalink())) }}" class="c-card c-card--action u-text-center">
         @if (municipio_get_thumbnail_source(null,array(400,400), '1:1'))
         <img class="c-card__image" src="{{ municipio_get_thumbnail_source(null,array(400,400), '1:1') }}">
         @endif
