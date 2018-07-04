@@ -358,16 +358,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.63",
+            "version": "v0.64",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf"
+                "reference": "0250aa8cadbe58e790aa07d736b675f3bdd87a1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/a009a33246e90bf1f60f745f8e47039ac5a87fdf",
-                "reference": "a009a33246e90bf1f60f745f8e47039ac5a87fdf",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/0250aa8cadbe58e790aa07d736b675f3bdd87a1c",
+                "reference": "0250aa8cadbe58e790aa07d736b675f3bdd87a1c",
                 "shasum": ""
             },
             "require": {
@@ -391,7 +391,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-06-07T00:22:54+00:00"
+            "time": "2018-06-30T00:22:51+00:00"
         },
         {
             "name": "google/auth",
@@ -712,16 +712,16 @@
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "0.5.4",
+            "version": "0.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "a80bcab57fb50dc1dc33b1ab7e551449f45dfc69"
+                "reference": "b2832498b452ac364b65813a93d04d8c29295cf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/a80bcab57fb50dc1dc33b1ab7e551449f45dfc69",
-                "reference": "a80bcab57fb50dc1dc33b1ab7e551449f45dfc69",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b2832498b452ac364b65813a93d04d8c29295cf7",
+                "reference": "b2832498b452ac364b65813a93d04d8c29295cf7",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2018-06-21T08:04:06+00:00"
+            "time": "2018-07-04T08:54:03+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
@@ -949,16 +949,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.6.10",
+            "version": "2.6.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "4ca4f7383c76d7071ea378a35b2fa292174aeb8e"
+                "reference": "7d435e3610d5cb25d984e6aaaeb3960b9c2ada56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/4ca4f7383c76d7071ea378a35b2fa292174aeb8e",
-                "reference": "4ca4f7383c76d7071ea378a35b2fa292174aeb8e",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7d435e3610d5cb25d984e6aaaeb3960b9c2ada56",
+                "reference": "7d435e3610d5cb25d984e6aaaeb3960b9c2ada56",
                 "shasum": ""
             },
             "require": {
@@ -990,20 +990,20 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2018-06-21T00:32:45+00:00"
+            "time": "2018-07-02T11:41:29+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.3.1",
+            "version": "1.5.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "31157153d05138c364512c0ed06766512ad10b7c"
+                "reference": "fb347c343ecf54062686dd45074a2b1fccae46d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/31157153d05138c364512c0ed06766512ad10b7c",
-                "reference": "31157153d05138c364512c0ed06766512ad10b7c",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/fb347c343ecf54062686dd45074a2b1fccae46d0",
+                "reference": "fb347c343ecf54062686dd45074a2b1fccae46d0",
                 "shasum": ""
             },
             "require": {
@@ -1029,20 +1029,20 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2018-06-20T12:18:46+00:00"
+            "time": "2018-07-04T08:34:50+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.19.22",
+            "version": "1.19.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "aa753ce86bfe4d53a043bdc9f325391a091e1f12"
+                "reference": "8a90a2f31a87e274513dab01139ec06af4b1673d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/aa753ce86bfe4d53a043bdc9f325391a091e1f12",
-                "reference": "aa753ce86bfe4d53a043bdc9f325391a091e1f12",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8a90a2f31a87e274513dab01139ec06af4b1673d",
+                "reference": "8a90a2f31a87e274513dab01139ec06af4b1673d",
                 "shasum": ""
             },
             "require": {
@@ -1076,7 +1076,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2018-06-25T14:44:58+00:00"
+            "time": "2018-07-04T08:07:44+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -1685,16 +1685,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.31.0",
+            "version": "1.31.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "4dbe0e51d24a4c7e000999324d21fc25edbf7b05"
+                "reference": "385780c8ca2dbfd25452666e3f55e8dc1df58c41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/4dbe0e51d24a4c7e000999324d21fc25edbf7b05",
-                "reference": "4dbe0e51d24a4c7e000999324d21fc25edbf7b05",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/385780c8ca2dbfd25452666e3f55e8dc1df58c41",
+                "reference": "385780c8ca2dbfd25452666e3f55e8dc1df58c41",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-06-24T14:32:22+00:00"
+            "time": "2018-06-25T13:15:16+00:00"
         },
         {
             "name": "philo/laravel-blade",
