@@ -17,6 +17,7 @@ body.t-kulturkortet {
     @import 'objects/newsletter-icon';
     @import 'objects/arrow-icon';
     @import 'objects/module-title';
+    @import 'objects/content-width';
 
     //Components
     @import 'components/main';
@@ -87,6 +88,14 @@ body.t-kulturkortet {
             height: auto;
             margin-bottom: 0;
         }
+    }
+
+    article + .page-footer {
+        margin-top: 0;
+    }
+
+    .c-article {
+        margin-bottom: $baseline * 4;
     }
 }
 

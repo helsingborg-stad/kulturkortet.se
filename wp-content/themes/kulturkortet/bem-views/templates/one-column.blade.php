@@ -5,23 +5,45 @@
         <div class="container container--one-column u-bg-content">
             <div class="grid grid--columns">
                 <div class="grid-xs-12">
-                    <div class="featured-image container__collapse">
-                        @if (get_field('post_single_show_featured_image') === true)
+                    <div class="container__collapse">
+                        @include('components.dynamic-sidebar', ['id' => 'slider-area'])
+
+                        @if (get_field('post_single_show_featured_image') === true && has_post_thumbnail())
+                        <div class="featured-image">
                             <img class="u-w-100" src="{{ municipio_get_thumbnail_source(null, array(960,540)) }}" alt="{{ the_title() }}">
+                        </div>
                         @endif
                     </div>
                 </div>
-                <div class="grid-xs-auto grid-md-fit-content u-mx-auto">
-                    @section('content')
-                        @while(have_posts())
-                            {!! the_post() !!}
+                @if (is_active_sidebar('above-article'))
+                    <div class="grid-xs-12">
+                        @include('components.dynamic-sidebar', ['id' => 'above-article'])
+                    </div>
+                @endif
+                <div class="grid-xs-12">
+                    <div class="o-content-width u-mx-auto">
+                        @section('content')
 
-                            @include('partials.article')
-                        @endwhile
+                            @include('components.dynamic-sidebar', ['id' => 'content-area-top'])
 
-                        @include('partials.page-footer')
-                    @show
+                            @while(have_posts())
+                                {!! the_post() !!}
+
+                                @include('partials.article')
+                            @endwhile
+
+                            @include('components.dynamic-sidebar', ['id' => 'content-area'])
+
+                            @include('partials.page-footer')
+                        @show
+                    </div>
                 </div>
+
+                @if (is_active_sidebar('below-article'))
+                    <div class="grid-xs-12">
+                        @include('components.dynamic-sidebar', ['id' => 'below-article'])
+                    </div>
+                @endif
             </div>
         </div>
     </div>
