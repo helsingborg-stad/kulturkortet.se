@@ -949,16 +949,16 @@
         },
         {
             "name": "helsingborg-stad/modularity",
-            "version": "2.6.12",
+            "version": "2.6.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Modularity.git",
-                "reference": "38f329c48b822a4e1d0adbd9666ef4a72d747e3d"
+                "reference": "7a0ef2afbf69255aacd8f0723001a1e7318229f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/38f329c48b822a4e1d0adbd9666ef4a72d747e3d",
-                "reference": "38f329c48b822a4e1d0adbd9666ef4a72d747e3d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Modularity/zipball/7a0ef2afbf69255aacd8f0723001a1e7318229f5",
+                "reference": "7a0ef2afbf69255aacd8f0723001a1e7318229f5",
                 "shasum": ""
             },
             "require": {
@@ -990,20 +990,20 @@
                 }
             ],
             "description": "Modular component system for WordPress",
-            "time": "2018-07-04T12:31:08+00:00"
+            "time": "2018-07-16T05:45:45+00:00"
         },
         {
             "name": "helsingborg-stad/modularity-form-builder",
-            "version": "1.5.9",
+            "version": "1.5.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/modularity-form-builder.git",
-                "reference": "f543f191eac5e334a1b4c949bf22f8a6b862e02e"
+                "reference": "230bad62d9994829acfb37c2e5e7377799ed245e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/f543f191eac5e334a1b4c949bf22f8a6b862e02e",
-                "reference": "f543f191eac5e334a1b4c949bf22f8a6b862e02e",
+                "url": "https://api.github.com/repos/helsingborg-stad/modularity-form-builder/zipball/230bad62d9994829acfb37c2e5e7377799ed245e",
+                "reference": "230bad62d9994829acfb37c2e5e7377799ed245e",
                 "shasum": ""
             },
             "require": {
@@ -1029,20 +1029,20 @@
                     "email": "jonatan.hanson@hiq.se"
                 }
             ],
-            "time": "2018-07-04T11:54:06+00:00"
+            "time": "2018-07-12T12:16:18+00:00"
         },
         {
             "name": "helsingborg-stad/municipio",
-            "version": "1.19.29",
+            "version": "1.19.32",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/Municipio.git",
-                "reference": "8a90a2f31a87e274513dab01139ec06af4b1673d"
+                "reference": "b2ba82865dc9b21a8990bc2d142cd0181b1bc5d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/8a90a2f31a87e274513dab01139ec06af4b1673d",
-                "reference": "8a90a2f31a87e274513dab01139ec06af4b1673d",
+                "url": "https://api.github.com/repos/helsingborg-stad/Municipio/zipball/b2ba82865dc9b21a8990bc2d142cd0181b1bc5d7",
+                "reference": "b2ba82865dc9b21a8990bc2d142cd0181b1bc5d7",
                 "shasum": ""
             },
             "require": {
@@ -1076,7 +1076,7 @@
                 }
             ],
             "description": "A bootstrap theme for creating municipality sites.",
-            "time": "2018-07-04T08:07:44+00:00"
+            "time": "2018-07-16T05:53:08+00:00"
         },
         {
             "name": "helsingborg-stad/readspeaker-helper",
@@ -1479,20 +1479,20 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.9.6",
+            "version": "4.9.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "ecca35c283591e3f40732522334415521f5aa4b7"
+                "reference": "6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/ecca35c283591e3f40732522334415521f5aa4b7",
-                "reference": "ecca35c283591e3f40732522334415521f5aa4b7",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa",
+                "reference": "6697a15cdfd60cfdf9f4bf04a4e7637a8d2a5afa",
                 "shasum": ""
             },
             "require": {
-                "johnpbloch/wordpress-core": "4.9.6",
+                "johnpbloch/wordpress-core": "4.9.7",
                 "johnpbloch/wordpress-core-installer": "^1.0",
                 "php": ">=5.3.2"
             },
@@ -1514,27 +1514,27 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17T20:03:03+00:00"
+            "time": "2018-07-05T18:12:19+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core",
-            "version": "4.9.6",
+            "version": "4.9.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress-core.git",
-                "reference": "6ff81eb3d93d326b78a8bc0f120e72c161ec58c8"
+                "reference": "1116e10f71f8fb811856df212af652c427bc6bd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/6ff81eb3d93d326b78a8bc0f120e72c161ec58c8",
-                "reference": "6ff81eb3d93d326b78a8bc0f120e72c161ec58c8",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/1116e10f71f8fb811856df212af652c427bc6bd1",
+                "reference": "1116e10f71f8fb811856df212af652c427bc6bd1",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "provide": {
-                "wordpress/core-implementation": "4.9.6"
+                "wordpress/core-implementation": "4.9.7"
             },
             "type": "wordpress-core",
             "notification-url": "https://packagist.org/downloads/",
@@ -1554,7 +1554,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2018-05-17T20:02:55+00:00"
+            "time": "2018-07-05T18:12:13+00:00"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -1685,16 +1685,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "1.31.1",
+            "version": "1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "385780c8ca2dbfd25452666e3f55e8dc1df58c41"
+                "reference": "64563e2b9f69e4db1b82a60e81efa327a30ff343"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/385780c8ca2dbfd25452666e3f55e8dc1df58c41",
-                "reference": "385780c8ca2dbfd25452666e3f55e8dc1df58c41",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/64563e2b9f69e4db1b82a60e81efa327a30ff343",
+                "reference": "64563e2b9f69e4db1b82a60e81efa327a30ff343",
                 "shasum": ""
             },
             "require": {
@@ -1736,7 +1736,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2018-06-25T13:15:16+00:00"
+            "time": "2018-07-05T06:59:26+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -2486,15 +2486,15 @@
         },
         {
             "name": "wpackagist-plugin/varnish-http-purge",
-            "version": "4.5.2",
+            "version": "4.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/varnish-http-purge/",
-                "reference": "tags/4.5.2"
+                "reference": "tags/4.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.5.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/varnish-http-purge.4.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
