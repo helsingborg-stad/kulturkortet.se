@@ -20,3 +20,27 @@ a.c-card.c-card--action {
 .c-card__title {
     font-size: 19px;
 }
+
+.selected-events {
+    background-color: #fff;
+
+    .c-card {
+        color: $color-primary;
+        border: none;
+        position: relative;
+        margin-bottom: $baseline;
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 70%;
+            left: 15%;
+            bottom: - $baseline / 2;
+            border-bottom: 1px solid $color-secondary;
+        }
+
+        &:last-child:after {
+            border-bottom: none;
+        }
+    }
+}
