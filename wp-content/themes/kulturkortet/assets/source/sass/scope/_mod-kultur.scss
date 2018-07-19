@@ -1,4 +1,4 @@
-[class*="modularity-mod"] > .grid > .grid-xs-12:first-child {
+[class*="modularity-mod"] > .grid > .grid-xs-12:first-child:not(:last-child) {
     @extend %mod-header;
     .box-title {
         @extend %mod-title;
