@@ -8,6 +8,7 @@ class App
         new \Kulturkortet\Theme\Event();
         new \Kulturkortet\Theme\Enqueue();
         new \Kulturkortet\Theme\ModuleScopes();
+        new \Kulturkortet\Theme\ModuleTemplates();
         new \Kulturkortet\Theme\Article();
         new \Kulturkortet\Theme\Header();
         new \Kulturkortet\Theme\Sidebars();

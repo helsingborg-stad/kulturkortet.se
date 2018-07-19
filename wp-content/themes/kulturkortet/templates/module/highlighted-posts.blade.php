@@ -1,4 +1,4 @@
-<div class="{{ $classes }} u-text-center selected-events">
+<div class="{{ $classes }} u-text-center s-card-highlight">
     @if (!$hideTitle && !empty($post_title))
         <div class="c-card" href="{{ get_permalink($post->ID) }}">
             <div class="c-card__body">
@@ -13,7 +13,7 @@
 
     @if (count($posts) > 0)
         @foreach ($posts as $post)
-            <div class="c-card">
+            <a class="c-card" href="{{ get_permalink($post->ID) }}">
                 <div class="c-card__body">
                     {{-- Date --}}
                     <div class="c-card__time u-mb-2">
@@ -23,21 +23,20 @@
                         </time>
                     </div>
                     {{-- Title --}}
-                    <a class="c-card" href="{{ get_permalink($post->ID) }}">
-                        @if (!empty($post->post_title))
-                            <h4 class="c-card__title">{{ $post->post_title }}</h4>
-                        @endif
 
-                        {{-- Location --}}
-                        @if (get_post_meta($post->ID, 'location', true))
-                            <span class="c-card__sub o-text-small">
+                    @if (!empty($post->post_title))
+                        <h4 class="c-card__title">{{ $post->post_title }}</h4>
+                    @endif
+
+                    {{-- Location --}}
+                    @if (get_post_meta($post->ID, 'location', true))
+                        <span class="c-card__sub o-text-small">
                         <?php $location = get_post_meta($post->ID, 'location', true); ?>
-                                {{ $location['title'] }}
+                            {{ $location['title'] }}
                         </span>
-                        @endif
-                    </a>
+                    @endif
                 </div>
-            </div>
+            </a>
         @endforeach
     @else
         <div class="c-card">
