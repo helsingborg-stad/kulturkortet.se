@@ -15,15 +15,15 @@
         </div>
         <div class="grid-md-4 hidden-sm hidden-xs">
             <div class="grid info">
-                @if (! empty($date))
+                @if (! empty($occasion))
                 <div class="grid-md-12">
                     <div class="info_box">
                         <div class="icon">
                             <i class="pricon pricon-calendar"></i>
                         </div>
                         <div class="text">
-                            <h3>{{ $date['date'] }} {{ $date['month'] }}</h3>
-                            <span>{{ $date['time'] }}</span>
+                            <h3>{{ $occasion['date_parts']['date'] ?? '' }} {{ $occasion['date_parts']['month'] ?? '' }}</h3>
+                            <span>{{ $occasion['date_parts']['time'] ?? '' }}</span>
                         </div>
                     </div>
                 </div>
