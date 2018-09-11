@@ -12,7 +12,7 @@
             @if (get_field('archive_' . sanitize_title(get_post_type()) . '_feed_date_published', 'option') != 'false')
             <div class="u-mb-2">
             <time class="o-text-secondary">
-               {{ \Municipio\Helper\Event::formatEventDate($post->start_date, $post->end_date) }}
+               {{ \EventManagerIntegration\App::formatEventDate($post->start_date, $post->end_date) }}
             </time>
             </div>
             @endif
