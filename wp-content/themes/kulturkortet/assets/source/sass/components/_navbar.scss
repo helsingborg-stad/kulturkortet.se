@@ -16,6 +16,7 @@
 
         &:hover {
             color: $color-secondary;
+
         }
     }
 
@@ -37,3 +38,19 @@
         padding: $baseline*1.5 $baseline*5;
     }
 }
+#mobile-menu {
+    form {
+        background-color: $color-menu-background !important;
+    }
+
+    li a{
+        background-color: $color-primary;
+        &:hover {
+            background-color: $color-menu-background !important;
+        }
+    }
+    .nav-mobile .sub-menu {
+        border-color: $color-menu-background !important;
+    }
+}
+
