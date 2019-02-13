@@ -708,20 +708,20 @@
                 }
             ],
             "description": "Simple plugin for verification of existing WordPress users with api.",
-            "time": "2018-10-04T11:35:11+00:00"
+            "time": "2019-02-12T08:59:43+00:00"
         },
         {
             "name": "helsingborg-stad/api-event-manager-integration",
-            "version": "0.6.9",
+            "version": "0.6.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helsingborg-stad/api-event-manager-integration.git",
-                "reference": "b3ade601e69899a602e9dcb2373001e9992c44fa"
+                "reference": "957b31a7943895c2bcd6ba816861421e5349c062"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/b3ade601e69899a602e9dcb2373001e9992c44fa",
-                "reference": "b3ade601e69899a602e9dcb2373001e9992c44fa",
+                "url": "https://api.github.com/repos/helsingborg-stad/api-event-manager-integration/zipball/957b31a7943895c2bcd6ba816861421e5349c062",
+                "reference": "957b31a7943895c2bcd6ba816861421e5349c062",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +740,7 @@
                 }
             ],
             "description": "Import and display events from Event Manager API.",
-            "time": "2018-10-18T09:59:40+00:00"
+            "time": "2019-02-13T13:34:19+00:00"
         },
         {
             "name": "helsingborg-stad/better-post-ui",
