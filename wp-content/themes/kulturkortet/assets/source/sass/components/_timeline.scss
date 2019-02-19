@@ -1,0 +1,25 @@
+.box-panel .box-content  .timeline {
+    
+    &:before {
+        background-color: $color-primary; 
+    }
+
+    .timeline__content {
+        background-color: $color-secondary; 
+    }
+
+    .timeline__content:before,
+    .timeline__content:after  {
+        border-right-color: $color-secondary;
+        border-left-color: $color-secondary;
+    }
+
+    .timeline__marker {
+        background-color: $color-primary; 
+    }
+
+    .timeline__date {
+        color: $color-primary;
+    }
+
+}

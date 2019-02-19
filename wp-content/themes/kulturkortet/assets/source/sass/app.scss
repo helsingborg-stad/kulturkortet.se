@@ -29,6 +29,8 @@ body.t-kulturkortet {
     @import 'components/button';
     @import 'components/signup';
     @import 'components/footer';
+    @import 'components/timeline';
+    @import 'components/box';
 
     //Scope
     @import 'scope/mod-kultur';

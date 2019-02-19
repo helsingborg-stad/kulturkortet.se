@@ -1,0 +1,8 @@
+.box-panel-secondary .box-title {
+    color: $color-secondary;
+    border-color: $color-secondary; 
+}
+
+.box-panel:not(.box-panel-secondary) .box-title {
+    background: $color-secondary; 
+}
