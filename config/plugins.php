@@ -35,6 +35,6 @@ define('WEB_FONT', false);
  * @var bool
  */
 
-if(getenv('ENVIRONMENT') == "production") {
+if(in_array(getenv('ENVIRONMENT'), array("production", "docroot_kulturkortet"))) {
     define('SSL_PROXY', true);
 }
