@@ -25,7 +25,7 @@
                             @if (in_array('date', $posts_fields) && $posts_data_source !== 'input')
                                 <div class="c-card__meta u-mb-1">
                                     <time class="o-text-small">
-                                        Publiserat den {{ apply_filters('Modularity/Module/Posts/Date', get_the_time(get_option('date_format'), $post->ID) . ' ' . get_the_time(get_option('time_format'), $post->ID), $post->ID, $post->post_type) }}
+                                         Publicerad den {{ apply_filters('Modularity/Module/Posts/Date', get_the_time(get_option('date_format'), $post->ID) . ' ' . get_the_time(get_option('time_format'), $post->ID), $post->ID, $post->post_type) }}
                                     </time>
                                 </div>
                             @endif
