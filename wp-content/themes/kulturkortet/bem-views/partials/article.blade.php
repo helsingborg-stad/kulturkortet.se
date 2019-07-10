@@ -3,11 +3,11 @@
     <h1>{{ the_title() }}</h1>
 
     @if (get_post_type() == 'article')
-        <div class="u-mb-1">
+        <!-- <div class="u-mb-1">
             <time datetime="<?php echo the_time('Y-m-d H:i'); ?>">
                     <strong> <?php the_time('j F Y'); ?></strong>
             </time>
-        </div>
+        </div> -->
     @endif
 
     @if (isset(get_extended($post->post_content)['main']) && strlen(get_extended($post->post_content)['main']) > 0 && isset(get_extended($post->post_content)['extended']) && strlen(get_extended($post->post_content)['extended']) > 0)
