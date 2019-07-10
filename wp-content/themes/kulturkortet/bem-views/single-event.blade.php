@@ -23,7 +23,7 @@
                         </div>
                         <div class="text">
                             <h3>{{ $occasion['date_parts']['date'] ?? '' }} {{ $occasion['date_parts']['month'] ?? '' }}</h3>
-                            <span>{{ $occasion['date_parts']['time'] ?? '' }}</span>
+                        
                         </div>
                     </div>
                 </div>
