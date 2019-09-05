@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Kulturkortet\n"
-"POT-Creation-Date: 2018-05-31 15:27+0200\n"
-"PO-Revision-Date: 2018-05-31 15:27+0200\n"
+"POT-Creation-Date: 2019-07-10 14:09+0200\n"
+"PO-Revision-Date: 2019-07-12 12:00+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv_SE\n"
@@ -19,6 +19,51 @@ msgstr ""
 "_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: bem-views/partials/archive-event-filters.blade.php:40
+#: bem-views/partials/archive-event-filters.blade.php:43
+#: bem-views/partials/archive-event-filters.blade.php:79
+#: bem-views/partials/archive-filters.blade.php:40
+#: bem-views/partials/archive-filters.blade.php:43
+#: bem-views/partials/archive-filters.blade.php:79
+#: templates/module/partials/post-filters.blade.php:33
+#: templates/module/partials/post-filters.blade.php:38
+msgid "Search"
+msgstr ""
+
+#: bem-views/partials/archive-event-filters.blade.php:50
+#: bem-views/partials/archive-filters.blade.php:50
+#: templates/module/partials/post-filters.blade.php:50
+msgid "Date published"
+msgstr "Publiceringsdatum"
+
+#: bem-views/partials/archive-event-filters.blade.php:53
+#: bem-views/partials/archive-filters.blade.php:53
+#: templates/module/partials/post-filters.blade.php:54
+msgid "From date"
+msgstr ""
+
+#: bem-views/partials/archive-event-filters.blade.php:56
+#: bem-views/partials/archive-filters.blade.php:55
+#: templates/module/partials/post-filters.blade.php:59
+msgid "To date"
+msgstr ""
+
+#: bem-views/partials/archive-event-filters.blade.php:75
+#: bem-views/partials/archive-filters.blade.php:75
+#: templates/module/partials/post-filters.blade.php:88
+msgid "Clear filters"
+msgstr ""
+
+#: bem-views/partials/archive-filters.blade.php:52
+#: templates/module/partials/post-filters.blade.php:53
+msgid "From"
+msgstr ""
+
+#: bem-views/partials/archive-filters.blade.php:54
+#: templates/module/partials/post-filters.blade.php:58
+msgid "To"
+msgstr ""
 
 #: library/Entity/Filter.php:26
 msgid "Show All"
@@ -95,15 +140,15 @@ msgctxt "Post type singular"
 msgid "Article"
 msgstr "Artikel"
 
-#: library/Theme/Article.php:39 library/Theme/Article.php:49
-#, fuzzy
-msgid "article"
-msgstr "artikel"
-
 #: library/Theme/Article.php:41
 #, fuzzy
 msgid "Stores articles for kulturkortet."
 msgstr "Lagrar artiklar för kulturkortet."
+
+#: library/Theme/Article.php:49
+#, fuzzy
+msgid "article"
+msgstr "artikel"
 
 #: library/Theme/Article.php:62 library/Theme/Article.php:89
 #, fuzzy
@@ -121,9 +166,50 @@ msgid "Category"
 msgstr "Kategori / Produkt"
 
 #: library/Theme/ModuleScopes.php:19
-#, fuzzy
-msgid "Select a card"
-msgstr "Välj ett kort"
+msgid "Card sales"
+msgstr ""
+
+#: library/Theme/ModuleScopes.php:23
+msgid "Slider padded"
+msgstr ""
+
+#: library/Theme/ModuleTemplates.php:19
+msgid "Highlighted posts"
+msgstr ""
+
+#: library/Theme/Sidebars.php:19
+msgid "Above article"
+msgstr ""
+
+#: library/Theme/Sidebars.php:20
+msgid "The area above the article"
+msgstr ""
+
+#: library/Theme/Sidebars.php:30
+msgid "Below article"
+msgstr ""
+
+#: library/Theme/Sidebars.php:31
+msgid "The area below the article"
+msgstr ""
+
+#: templates/module/grid.blade.php:92
+#: templates/module/highlighted-posts.blade.php:44
+msgid "No posts to show…"
+msgstr ""
+
+#: templates/module/grid.blade.php:99 templates/module/index.blade.php:57
+msgid "Show more"
+msgstr ""
+
+#: templates/module/partials/post-filters.blade.php:14
+#: templates/module/partials/post-filters.blade.php:73
+msgid "Select"
+msgstr ""
+
+#: templates/module/partials/post-filters.blade.php:45
+msgid "Date"
+msgstr ""
 
 #. Theme Name of the plugin/theme
 msgid "Kulturkortet"
@@ -132,3 +218,7 @@ msgstr ""
 #. Description of the plugin/theme
 msgid "Tema för kulturkortet.se"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Select a card"
+#~ msgstr "Välj ett kort"
