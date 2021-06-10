@@ -62,3 +62,4 @@ ehthumbs.db
 Thumbs.db
 /wp-content/themes/kulturkortet/node_modules
 /.idea
+.dccache
